@@ -4,6 +4,8 @@
 /*** Edited on 11/18/2019 - hopefully I fixed most of the crashing issues!!! ***/
 
 import java.math.*;
+import java.math.BigInteger;
+
 
 public class Point {
 
@@ -31,6 +33,10 @@ public class Point {
 		curve = c;
 		x = BigInteger.ZERO;
 		y = BigInteger.ZERO;
+	}
+
+	public BigInteger returnX() {
+		return x;
 	}
 
 	// All components must be equal...
